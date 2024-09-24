@@ -30,7 +30,11 @@
         {
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnSegundo = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.lblJuanito = new System.Windows.Forms.Label();
+=======
+            this.lblPepito = new System.Windows.Forms.Label();
+>>>>>>> origin/develop
             this.SuspendLayout();
             // 
             // btnAceptar
@@ -51,6 +55,7 @@
             this.btnSegundo.Text = "SEGUNDO";
             this.btnSegundo.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // lblJuanito
             // 
             this.lblJuanito.AutoSize = true;
@@ -59,13 +64,27 @@
             this.lblJuanito.Size = new System.Drawing.Size(62, 13);
             this.lblJuanito.TabIndex = 2;
             this.lblJuanito.Text = "Soy Juanito";
+=======
+            // lblPepito
+            // 
+            this.lblPepito.AutoSize = true;
+            this.lblPepito.Location = new System.Drawing.Point(417, 54);
+            this.lblPepito.Name = "lblPepito";
+            this.lblPepito.Size = new System.Drawing.Size(58, 13);
+            this.lblPepito.TabIndex = 2;
+            this.lblPepito.Text = "Soy Pepito";
+>>>>>>> origin/develop
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
             this.Controls.Add(this.lblJuanito);
+=======
+            this.Controls.Add(this.lblPepito);
+>>>>>>> origin/develop
             this.Controls.Add(this.btnSegundo);
             this.Controls.Add(this.btnAceptar);
             this.Name = "Form1";
@@ -79,7 +98,11 @@
 
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnSegundo;
+<<<<<<< HEAD
         private System.Windows.Forms.Label lblJuanito;
+=======
+        private System.Windows.Forms.Label lblPepito;
+>>>>>>> origin/develop
     }
 }
 
